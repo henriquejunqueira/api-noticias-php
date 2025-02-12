@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api.php",
+      "src": "api/noticias.php",
       "use": "@vercel/php"
     }
   ],
   "routes": [
     {
       "src": "/api/noticias",
-      "dest": "/api.php"
+      "dest": "/api/noticias.php"
     }
   ]
 }
